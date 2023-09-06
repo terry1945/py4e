@@ -1,0 +1,73 @@
+128  python3 -m venv ~/env/dj
+  129  ls
+  130  ls env
+  131  ls env/dj
+  132  ls env/dj/bin
+  133  source env/dj/bin/activate
+  134  which pyton3
+  135  which python3
+  136  which python
+  137  deactivate
+  138  which python
+  139  which python3
+  140  source env/dj/bin/activate
+  141  pip install django
+  142  pip list
+  143  django-admin startproject crud
+  144  ls
+  145  cd crud
+  146  ls
+  147  ls crud
+  148  manage.py runserver
+  149  python manage.py runserver
+  150  python manage.py runserver 0.0.0.0:8000
+  151  ls
+  152  vim crud/settings.py
+  153  python manage.py runserver 0.0.0.0:8000
+  154  cd
+  155  deactivate
+  156  django-admin startproject mysite
+  157  history
+  158  ls
+  159  python3 -m venv ~/venv
+  160  cd venv
+  161  ls
+  162  django-admin startproject mysite
+  163  pip list
+  164  pip3 list
+  165  neofetch
+  166  sudo apt update
+  167  vim .bashrc
+  168  ls
+  169  source .bashrc
+  170  lsd -al
+  171  df -h
+  172  history
+
+# ~/.config/starship.toml
+
+# Use custom format
+format = '''
+[┌───────────────────>](bold green)
+[│](bold green)$directory$rust$package
+[└─>](bold green) '''
+
+# Wait 10 milliseconds for starship to check files under the current directory.
+scan_timeout = 10
+
+# Disable the blank line at the start of the prompt
+add_newline = false
+
+# Set 'foo' as custom color palette
+palette = 'foo'
+
+# Define custom colors
+[palettes.foo]
+# Overwrite existing color
+blue = '21'
+# Define new color
+mustard = '#af8700'
+
+┌───────────────────>
+│~
+└─>
